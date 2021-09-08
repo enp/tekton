@@ -1,0 +1,13 @@
+bigtop {
+  project {
+    name = "ADX"
+  }
+  components {
+    'one' {
+      name = "one"
+    }
+    'two' {
+      name = "two"
+    }
+  }
+}

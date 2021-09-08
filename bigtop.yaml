@@ -1,0 +1,14 @@
+---
+apiVersion: "tekton.dev/v1beta1"
+kind: "Pipeline"
+metadata:
+  name: "adx"
+spec:
+  tasks:
+  - name: "one"
+    taskRef:
+      name: "example"
+  - name: "two"
+    taskRef:
+      name: "example"
+

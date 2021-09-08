@@ -1,0 +1,12 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: example
+spec:
+  steps:
+    - name: example
+      image: ubuntu
+      command:
+        - echo
+      args:
+        - "example"
